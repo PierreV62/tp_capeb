@@ -1,0 +1,60 @@
+/* debut scss main */
+
+
+/* gestion du background -> main.scss l.6 */
+
+.background_img {
+    background: $background;
+    background-position: center;
+}
+
+
+/* gestion de " l'entete " -> main.scss l.14 */
+
+.flex_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $blc;
+}
+
+.badge_m {
+    margin-top: 10px;
+}
+
+
+/* gestion de la partie 'envoi de mail' -> main.scss l.28 */
+
+.txt_ask_center {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button_ask_color {
+    background-color: $blk;
+    color: $blc;
+    margin-bottom: 50px;
+}
+
+
+/* gestion de la partie 'footer' -> main.scss l.42 */
+
+.footer {
+    background-color: $dark_grey;
+}
+
+
+/* gestion du bandeau de fin -> main.scss l.49 */
+
+.bandeau_fin {
+    background-color: $blk;
+    text-align: center;
+    color: $blc;
+}
+
+.margin_center {
+    padding: 10px;
+}
+
+
+/* fin scss main */
